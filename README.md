@@ -21,7 +21,7 @@ This Python script logs the current temperature using the Raspberry Pi's Sense H
 2. Make the script executable:
 
    ```console
-   chmod +x temperature_logger.py
+   chmod +x SenseHat-Temp.py
    ```
 3. Run the script manually using Python:
 
