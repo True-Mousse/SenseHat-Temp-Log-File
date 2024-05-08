@@ -1,0 +1,3 @@
+## Example Output ##
+23h58m: 23C
+23h59m: 23C
