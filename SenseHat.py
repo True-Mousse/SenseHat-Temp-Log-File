@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 import os
 import datetime
 from sense_hat import SenseHat
@@ -21,7 +20,6 @@ current_Temp = str(temp_C) + "C\n"
 if os.path.exists(file_path):
 	with open (file_path, 'a') as fp:
  		fp.write(time + current_Temp)
-		
 else:
  	with open(file_path, 'w') as fp:
  		fp.write(time + current_Temp)
