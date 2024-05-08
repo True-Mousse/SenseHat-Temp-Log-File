@@ -53,11 +53,11 @@ Now, the temperature logging script will be executed automatically by cron every
 
 ## File Structure
 
-    temperature_logger.py: Python script that reads temperature from Sense HAT and logs it to a file.
-    README.md: This file providing information about the script and its usage.
+   - temperature_logger.py: Python script that reads temperature from Sense HAT and logs it to a file.
+   - README.md: This file providing information about the script and its usage.
 
 ## Notes
 
-    - Ensure that the script has write permissions to the directory where the log file is located.
-    - Customize the crontab schedule (0 * * * *) according to your desired execution interval (e.g., every 30 minutes: */30 * * * *).
-    - Adjust file paths or permissions as needed based on your setup.   
+   - Ensure that the script has write permissions to the directory where the log file is located.
+   - Customize the crontab schedule (0 * * * *) according to your desired execution interval (e.g., every 30 minutes: */30 * * * *).
+   - Adjust file paths or permissions as needed based on your setup.   
