@@ -45,7 +45,7 @@ This Python script logs the current temperature using the Raspberry Pi's Sense H
     0 * * * * /path/to/SenseHat-Temp.py
     ```
     
-    - 0 * * * *: This specifies that the script will run at the start of every hour (i.e., 0 minutes past the hour).
+    0 * * * *: This specifies that the script will run at the start of every hour (i.e., 0 minutes past the hour).
         
 3. Save and close the crontab editor (Ctrl + X, then Y, then Enter).
 
